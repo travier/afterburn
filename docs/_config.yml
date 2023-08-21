@@ -3,10 +3,10 @@
 # To test documentation changes locally or using GitHub Pages, see:
 # https://github.com/coreos/fedora-coreos-tracker/blob/main/docs/testing-project-documentation-changes.md
 
-title: Afterburn
+title: Afterburn (just-the-docs theme 0.8.1)
 description: Afterburn documentation
 baseurl: "/afterburn"
-url: "https://coreos.github.io"
+url: "https://travier.github.io"
 permalink: /:title/
 markdown: kramdown
 kramdown:
@@ -14,7 +14,7 @@ kramdown:
     ndash: "--"
     mdash: "---"
 
-remote_theme: just-the-docs/just-the-docs@v0.7.0
+remote_theme: just-the-docs/just-the-docs@v0.8.1
 plugins:
   - jekyll-remote-theme
 
